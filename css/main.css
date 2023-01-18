@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'excalibur_nouveauregular';
+    src: url('../fonts/excalibur_nouveau-webfont.woff2') format('woff2'),
+         url('../fonts/excalibur_nouveau-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.hidden {
+    display: none;
+}
+
+#container {
+    width: 428px;
+    margin: 20px auto;
+    border: solid 1px #333;
+    border-radius: 10px;
+    background-color: #d74e2e;
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article {
+    grid-column: 1/-1;
+}
+
+body {
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 18px;
+    font-weight: 100px;
+}
+
+p {
+    text-align: justify;
+    line-height: 30px;
+    color: #f3ddd0;
+
+}
+
+h2, h3 {
+    font-family: 'excalibur_nouveauregular', arial, sans-serif;
+}
+
+h2 {
+    font-size: 100px;
+    font-weight: 300px;
+    letter-spacing: 6px;
+    text-align: center;
+    /* transform: rotate(-15deg); */
+    /* background-color: rgb(75, 75, 75); */
+    color: #f3ddd0;
+    margin: 50px auto;
+    text-shadow: 5px 5px #102bb2;
+}
+
+h3 {
+    font-size: 42px;
+    letter-spacing: 1;
+}
+
+p span {
+    font-family: 'excalibur_nouveauregular', arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
