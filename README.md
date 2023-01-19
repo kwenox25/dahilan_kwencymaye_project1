@@ -1,2 +1,4 @@
-# dahilan_kwencymaye_project1
-Typography 
+# Typography and Style HW1
+
+# Credits
+Kwency Maye Dahilan
